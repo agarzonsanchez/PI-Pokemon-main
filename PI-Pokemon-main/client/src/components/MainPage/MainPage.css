@@ -1,0 +1,67 @@
+/* body {
+  background: url("poke1.jpg") center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 19px;
+} */
+.welcome {
+  color: #1b120f;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 2px 4px #f89d13;
+}
+
+.container {
+  height: 200px;
+  position: relative;
+}
+.textD {
+  margin: 0;
+  font-size: 30px;
+  padding: 15px 25px;
+  position: absolute;
+  top: 12%;
+  left: 44%;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #8f1d14;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.textD:hover {
+  transform: scale(0.95);
+  background-color: #e6dedd;
+}
+
+.footerS {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  list-style: none;
+  font-size: 35px;
+}
+
+.social {
+  padding-right: 25px;
+}
+
+.socialCl {
+  color: #f89d13;
+  font-size: 80px;
+}
+.socialCl:hover {
+  color: #e6dedd; /* Green */
+  transform: scale(0.95);
+}
+.logoSt {
+  font-size: 200px;
+}

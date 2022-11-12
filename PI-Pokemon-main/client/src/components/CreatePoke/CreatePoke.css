@@ -1,0 +1,19 @@
+.formStyled {
+  /* border: 2px solid black; */
+  margin: 40px auto;
+  padding: 10px;
+  height: 500px;
+  width: 400px;
+  border-radius: 8px;
+  background-color: rgba(10, 40, 96, 0.6);
+}
+
+.inputSt {
+  border-radius: 8px;
+}
+
+.errorSt {
+  font-size: 12px;
+  background-color: yellow;
+  border-radius: 8px;
+}

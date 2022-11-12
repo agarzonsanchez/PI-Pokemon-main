@@ -1,0 +1,16 @@
+.formStyle {
+  margin: 5px;
+}
+
+.inputS {
+  border-radius: 8px 0 0 8px;
+}
+
+.buttonS {
+  border-radius: 0 8px 8px 0;
+  background-color: white;
+}
+
+.buttonS:hover {
+  background-color: #0075be;
+}

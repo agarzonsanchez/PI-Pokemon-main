@@ -1,0 +1,27 @@
+.navbar {
+  display: inline-flex;
+  list-style: none;
+}
+
+.btnStyle {
+  background-color: #ffffff;
+  border: none;
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+  color: #ffcc00;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px #0a285f;
+  border: 5px solid black;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.btnStyle:hover {
+  transform: scale(1.1);
+}
+
+.navBack {
+  background-color: #fb1b1b;
+  padding: 10px;
+  border-bottom: 5px solid black;
+}

@@ -1,0 +1,13 @@
+.cardPokeDetails {
+  margin: auto;
+  background-color: red;
+  border: 8px solid blue;
+  border-radius: 20px;
+  background-color: #f89d13;
+  max-width: 40%;
+}
+
+.imagePokeDetails {
+  max-width: 30%;
+  text-decoration: none;
+}

@@ -1,0 +1,18 @@
+.imagePoke {
+  max-width: 30%;
+  text-decoration: none;
+}
+.pokeTitle {
+  font-weight: bolder;
+  font-size: 30px;
+  color: #0a285f;
+  text-shadow: 2px 2px #0075be;
+}
+
+.linkPoke {
+  text-decoration: none;
+}
+
+.textDeco {
+  color: #0a285f;
+}

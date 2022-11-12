@@ -1,0 +1,76 @@
+body {
+  background: url("pokeWall.jpg") center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+.cardPoke {
+  display: inline-flex;
+  justify-content: auto;
+  border: 8px solid #0075be;
+  border-radius: 20px;
+  background-color: #ffcc00;
+  max-width: 20%;
+  margin: 5px;
+}
+
+.cardPoke:hover {
+  background-color: rgba(255, 255, 0, 0.6);
+  transform: scale(0.95);
+}
+
+.button-13 {
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #0075be;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.searchBar {
+  background-color: white;
+  box-shadow: 1px 1px #0f1111;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.selectStyle {
+  margin-left: 5px;
+  height: 30px;
+  border-radius: 8px;
+}
+.inputStyle {
+  margin-top: 50px;
+}
